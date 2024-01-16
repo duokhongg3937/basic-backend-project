@@ -1,8 +1,9 @@
 let getHomepage = (req, res) => {
     // logic handle
-    return res.render('index.ejs');
+    var a = 1;
+    return res.render("index.ejs");
 };
 
 module.exports = {
-    getHomepage
-}
+    getHomepage,
+};
